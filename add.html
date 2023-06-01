@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="./css/style.css" type="text/css" rel="stylesheet">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+</head>
+<body>
+  <header>
+    <nav>
+        <div class="menu-container">
+  
+        </div>
+      </nav>
+  </header>
+  <main>
+      <div class="container">
+        
+          <form class="add-form">
+            <h1>Add new product</h1>
+              <div>
+                  <label for="title">Title</label>
+                  <input id="title">
+              </div>
+              <div>
+                  <label for="price">Price</label>
+                  <input id="price">
+              </div>
+              <div>
+                  <label for="description">Description</label>
+                  <textarea id="description"></textarea>
+              </div>
+              <div>
+                <label for="imagePicker">Image</label>
+                <input type="file" id="imagePicker"/>
+              </div>
+              <div class="image-error"></div>
+              <div>
+                <label for="featured">Featured</label>
+                <input type="checkbox" id="featured">
+              </div>
+              <div class="button-container">
+                <button class="submit">Submit</button>
+              </div>
+              <div class="message-container"></div>
+          </form>
+      </div>
+    
+  </main>
+  <footer>
+      
+  </footer>
+  <script src="./js/add.js" type="module"></script>
+</body>
+</html>
