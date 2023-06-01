@@ -1,0 +1,76 @@
+.add-form, .edit-form, #loginForm {
+    background-color: $color-primary;
+    padding: 10px;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 15px;
+    box-shadow: 0 2px 3px 1px rgb(201, 201, 201);
+
+    h1 {
+        text-align: center;
+    }
+
+    div {
+        margin-bottom: 10px; 
+    }
+
+    input {
+        height: 30px;
+    }
+
+    #title {
+        width: 60%;
+    }
+
+    textarea {
+        width: 60%;
+        height: 60px;
+    }
+
+    #price {
+        width: 90px;
+    }
+
+    #featured {
+        height: 13px;
+    }
+
+    label {
+        width: 82px;
+        display: inline-block;
+        text-align: end;
+    }
+
+    .button-container, .delete-container {
+        text-align: center;
+    }
+
+    .submit, #update, .log-in {
+        background-color: $color-button;
+        color: white;
+        width: 80px;
+    }
+
+    .delete {
+        background-color: $color-red;
+        color: white;
+        width: 80px;
+    }
+
+    #imageUpload, #imagePicker {
+        width: 210px;
+    }
+
+    .message-container {
+        text-align: center;
+        color: $color-button;
+    }
+
+    .image-error {
+        text-align: center;
+    }
+}
+
+#loginForm {
+    text-align: center;
+}

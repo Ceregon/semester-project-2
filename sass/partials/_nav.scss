@@ -1,0 +1,29 @@
+.menu {
+    background-color: rgb(228, 228, 228);
+    font-family: $font-primary;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: auto;
+    text-transform: uppercase;
+
+    a {
+        margin: 5px;
+        margin-right: 10px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .active {
+        color: green;
+    }
+
+    #logout {
+        margin-left: auto;
+        border: none;
+        padding: 5px;
+        height: auto;
+        font-size: 14px;
+    }
+}

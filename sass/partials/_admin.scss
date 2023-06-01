@@ -1,0 +1,65 @@
+.addNew {
+    margin-left: 1%;
+    margin-top: 5px;
+    background-color: $color-button;
+    color: white;
+}
+
+.info {
+    margin-left: 1%;
+}
+
+.edit-container {
+
+    margin: 15px 1% 15px 1%;
+    
+    table {
+        width: 100%;   
+        border-spacing: 0;
+    }
+
+    thead {
+        background-color: $color-primary;
+    }
+
+    th {
+        text-align: left;
+        border-bottom: 1px solid rgb(99, 99, 99);
+        padding: 5px;
+    }
+}
+
+.products-table {
+
+     td {
+         border-bottom: 1px solid rgb(99, 99, 99);
+         height: 80px;
+        
+         a {
+            display: block;
+            height: 80px;
+            position: relative;
+            color: black;
+
+            p {
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                transform: translate(0, -50%);
+                text-align: left;
+                padding-left: 5px;
+            }
+        }
+     }
+
+     .td-img {
+         width: 80px;
+     }
+ 
+     img {
+         width: 80px;
+         height: 80px;
+         object-fit: cover;
+         float: right;
+     }
+}

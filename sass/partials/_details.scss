@@ -1,0 +1,21 @@
+.product-container {
+    padding: 10px;
+    max-width: 600px;
+    margin: auto;
+
+    img {
+        width: 100%;
+        max-height: 500px;
+        object-fit: contain;
+    }
+
+    button {
+        margin-top: 10px;
+        background-color: $color-button;
+        color: white;
+    }
+
+    p {
+        overflow-wrap: break-word;
+    }
+}

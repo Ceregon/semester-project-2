@@ -1,0 +1,414 @@
+.menu {
+  background-color: #e4e4e4;
+  font-family: "Helvetica", sans-serif;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1280px;
+  margin: auto;
+  text-transform: uppercase;
+}
+
+.menu a {
+  margin: 5px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.menu .active {
+  color: green;
+}
+
+.menu #logout {
+  margin-left: auto;
+  border: none;
+  padding: 5px;
+  height: auto;
+  font-size: 14px;
+}
+
+.hero-banner {
+  height: 300px;
+  width: 100%;
+}
+
+.banner-img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.featured-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: "Helvetica", sans-serif;
+}
+
+.featured-container .card {
+  margin: 5px;
+  padding: 10px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  width: 30%;
+  -webkit-box-shadow: 0 2px 3px 1px #c9c9c9;
+          box-shadow: 0 2px 3px 1px #c9c9c9;
+  text-align: center;
+}
+
+.featured-container .card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 50%;
+}
+
+.featured-container .card a {
+  text-decoration: none;
+  text-align: center;
+  color: #202020;
+}
+
+.featured-container .card button {
+  background-color: #009c00;
+  color: white;
+  margin-top: 15px;
+}
+
+.welcome {
+  padding: 5px;
+  text-align: center;
+}
+
+.search {
+  margin-left: 1%;
+  margin-top: 5px;
+  height: 30px;
+  border-style: none;
+  -webkit-box-shadow: inset 0 0 20px -10px #505050;
+          box-shadow: inset 0 0 20px -10px #505050;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+.no-results {
+  margin-left: 1%;
+  margin-top: 15px;
+}
+
+.products-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  font-family: "Helvetica", sans-serif;
+}
+
+.products-container .card {
+  margin: 5px;
+  padding: 10px;
+  -webkit-box-shadow: 0 2px 3px 1px #c9c9c9;
+          box-shadow: 0 2px 3px 1px #c9c9c9;
+}
+
+.products-container .card .img-container {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
+.products-container .card img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.products-container .card a {
+  text-decoration: none;
+  text-align: center;
+  color: #202020;
+}
+
+.products-container .card .price {
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  .products-container {
+    -ms-grid-columns: 33% 33% 33%;
+        grid-template-columns: 33% 33% 33%;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .products-container {
+    -ms-grid-columns: 25% 25% 25% 25%;
+        grid-template-columns: 25% 25% 25% 25%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .products-container {
+    -ms-grid-columns: 20% 20% 20% 20% 20%;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+  }
+}
+
+.cart-container {
+  font-family: "Helvetica", sans-serif;
+  margin: 15px 1% 15px 1%;
+  max-width: 1300px;
+}
+
+.cart-container h1 {
+  text-align: center;
+}
+
+.cart-container table {
+  width: 100%;
+  border-spacing: 0;
+  max-width: 600px;
+  margin: auto;
+}
+
+.cart-container td, .cart-container th {
+  border-bottom: 1px solid #636363;
+}
+
+.cart-container td {
+  height: 80px;
+}
+
+.cart-container .td-img {
+  width: 80px;
+}
+
+.cart-container img {
+  width: 80px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.cart-container a {
+  display: block;
+  height: 80px;
+  position: relative;
+  color: black;
+}
+
+.cart-container a div {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.cart-total {
+  margin-left: 1%;
+  font-family: "Helvetica", sans-serif;
+  text-align: center;
+}
+
+.addNew {
+  margin-left: 1%;
+  margin-top: 5px;
+  background-color: #009c00;
+  color: white;
+}
+
+.info {
+  margin-left: 1%;
+}
+
+.edit-container {
+  margin: 15px 1% 15px 1%;
+}
+
+.edit-container table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+.edit-container thead {
+  background-color: #e4e4e4;
+}
+
+.edit-container th {
+  text-align: left;
+  border-bottom: 1px solid #636363;
+  padding: 5px;
+}
+
+.products-table td {
+  border-bottom: 1px solid #636363;
+  height: 80px;
+}
+
+.products-table td a {
+  display: block;
+  height: 80px;
+  position: relative;
+  color: black;
+}
+
+.products-table td a p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  text-align: left;
+  padding-left: 5px;
+}
+
+.products-table .td-img {
+  width: 80px;
+}
+
+.products-table img {
+  width: 80px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  float: right;
+}
+
+.add-form, .edit-form, #loginForm {
+  background-color: #e4e4e4;
+  padding: 10px;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 15px;
+  -webkit-box-shadow: 0 2px 3px 1px #c9c9c9;
+          box-shadow: 0 2px 3px 1px #c9c9c9;
+}
+
+.add-form h1, .edit-form h1, #loginForm h1 {
+  text-align: center;
+}
+
+.add-form div, .edit-form div, #loginForm div {
+  margin-bottom: 10px;
+}
+
+.add-form input, .edit-form input, #loginForm input {
+  height: 30px;
+}
+
+.add-form #title, .edit-form #title, #loginForm #title {
+  width: 60%;
+}
+
+.add-form textarea, .edit-form textarea, #loginForm textarea {
+  width: 60%;
+  height: 60px;
+}
+
+.add-form #price, .edit-form #price, #loginForm #price {
+  width: 90px;
+}
+
+.add-form #featured, .edit-form #featured, #loginForm #featured {
+  height: 13px;
+}
+
+.add-form label, .edit-form label, #loginForm label {
+  width: 82px;
+  display: inline-block;
+  text-align: end;
+}
+
+.add-form .button-container, .add-form .delete-container, .edit-form .button-container, .edit-form .delete-container, #loginForm .button-container, #loginForm .delete-container {
+  text-align: center;
+}
+
+.add-form .submit, .add-form #update, .add-form .log-in, .edit-form .submit, .edit-form #update, .edit-form .log-in, #loginForm .submit, #loginForm #update, #loginForm .log-in {
+  background-color: #009c00;
+  color: white;
+  width: 80px;
+}
+
+.add-form .delete, .edit-form .delete, #loginForm .delete {
+  background-color: #eb0000;
+  color: white;
+  width: 80px;
+}
+
+.add-form #imageUpload, .add-form #imagePicker, .edit-form #imageUpload, .edit-form #imagePicker, #loginForm #imageUpload, #loginForm #imagePicker {
+  width: 210px;
+}
+
+.add-form .message-container, .edit-form .message-container, #loginForm .message-container {
+  text-align: center;
+  color: #009c00;
+}
+
+.add-form .image-error, .edit-form .image-error, #loginForm .image-error {
+  text-align: center;
+}
+
+#loginForm {
+  text-align: center;
+}
+
+.product-container {
+  padding: 10px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.product-container img {
+  width: 100%;
+  max-height: 500px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.product-container button {
+  margin-top: 10px;
+  background-color: #009c00;
+  color: white;
+}
+
+.product-container p {
+  overflow-wrap: break-word;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+}
+
+main {
+  max-width: 1300px;
+  margin: auto;
+}
+
+button {
+  height: 40px;
+  border: none;
+  font-size: 18px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+h1 {
+  margin-left: 10px;
+}
+
+.message.warning {
+  color: #eb0000;
+}
+/*# sourceMappingURL=style.css.map */

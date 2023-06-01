@@ -1,0 +1,36 @@
+@import "partials/variables";
+@import "partials/nav";
+@import "partials/banner";
+@import "partials/featured";
+@import "partials/products";
+@import "partials/cart";
+@import "partials/admin";
+@import "partials/forms";
+@import "partials/details";
+
+
+body {
+    margin: 0;
+    font-family: $font-primary;
+}
+
+main {
+    max-width: 1300px;
+    margin: auto;
+}
+
+button {
+    height: 40px;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+.message.warning {
+    color: $color-red;
+}
